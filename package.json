@@ -1,0 +1,22 @@
+{
+  "name": "playlist-scrape",
+  "version": "0.0.0",
+  "description": "Playlist scraper - for top 50 type posts on music sites that are split across pages",
+  "main": "scraper.js",
+  "scripts": {
+    "test": "node scraper.js --site http://complex.com"
+  },
+  "dependencies" : {
+    "node.io": "0.5.1"
+  }
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "keywords": [
+    "scrape",
+    "music"
+  ],
+  "author": "Johnny Sheeley",
+  "license": "BSD"
+}
